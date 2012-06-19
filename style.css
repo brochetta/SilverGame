@@ -1,0 +1,97 @@
+/*copyright by kitgraphiquegratuit.org*/
+body, html   {background:#000 url(images/fond.png) no-repeat top center;margin:0;padding:0;font-family:Verdana, Arial, Helvetica, sans-serif;text-align:left;color:#FFF;background-attachment: fixed;font-size:11px;font-weight:normal}        
+#conteneur   {margin: 0 auto;position:relative;width:830px;text-align:left;}	
+#header      {height:154px;background:url(images/header.png) no-repeat top;padding: 0;margin:0 auto;width:830px}   
+.contenu1    {background:url(images/contenu1.png);width:830px;padding:0;margin:0 auto}	
+.contenu1 p  {width:790px;padding:0;margin:0 auto}	
+.contenu2    {background:url(images/contenu2.png);width:790px;padding:25px 20px 0 20px;margin:0 auto;color:#191919} 
+.texte       {width:750px;padding:20px 0 0 0;margin:0 auto;clear:both}	
+.barrec1     {background:url(images/fin_contenu1.png);width:830px;height:11px;margin:0 auto;clear:both}
+#pied        {height:46px;background:url(images/pied.png) no-repeat bottom;padding:14px 0 0 0;margin:0 auto 0;clear: both;width:830px;text-align:center;} 
+.left        {float:left;width:420px;margin:0;padding:0}	
+.right       {width:360px;padding:0;margin:0;float:right;}	 
+.boldspan{font-size:16px;color: #191919;font-weight:bold;}	
+.contenu2 a        {color: #191919;text-decoration: none;margin:0;outline:none;font-weight:bold}	
+.contenu2 a:hover  {color: #ffae01;}
+
+/*cadre noir*/
+.cadre span {font-size:16px;color: #FFF;font-weight:bold;}
+.cadre		 {background:#191919;width:340px;padding:10px;color:#FFF;margin:5px 0 0 0}
+.cadre a      {color: #ffae01}	 
+.cadre a:hover  {color: #FFF}	  
+
+/*news*/
+.news            {background:#191919;padding:3px 4px 3px 6px;font-weight:bold;float:left;color:#FFF}
+.date            {background:#ffae01;border:1px solid #191919;padding:2px 4px 3px 3px;float:left;font-size:10px;font-weight:bold}
+.texteN          {color:#191919;padding:2px 4px 2px 6px;float:left}
+.texteN a        {color:#191919;text-decoration:underline;font-weight:normal}	
+.texteN a:hover  {color:#ffae01;text-decoration:underline;font-weight:normal}
+.suite           {background:#ffae01;border:1px solid #191919;padding:2px 4px 2px 6px;float:left;margin:0 0 0 15px}
+.suite a         {color:#191919;font-size:9px}		 
+.suite a:hover   {color:#191919;font-size:9px}	
+		
+/*Espace_Membre*/
+#Espace_Membre     {background:url(images/fond_coNN.png);width:302px;height:79px;color:#FFF;float:right;margin:40px 30px 0 0;font-weight:bold;font-size:10px;padding:20px 5px 0 5px}
+.champ             {width:144px;height:16px;border:0;color:#191919;padding:0 3px 0 3px;margin:3px 4px 0 4px;text-align:left;border:1px solid #ff9d00}	   
+#Espace_Membre p   {color:#191919;margin:18px 0 0 5px;height:12px}
+#Espace_Membre p a {color:#191919}		
+#Espace_Membre p a:hover {color:#FFF}	
+.con1              {text-align:right;width:250px;margin:0;padding:0;height:22px}
+
+/* Menu */	
+#brmenu      {height:41px;background:url(images/br_menu.png) no-repeat top;padding:5px 0 0  0;margin:0 auto;width:830px}
+#menu, #menu ul        {padding : 0;margin : 0; list-style : none; line-height : 21px;text-align :left;}
+#menu                  {font-weight :bold;font-size:13px;}
+#menu a                {display : block;height:27px;color: #FFF;text-decoration : none;line-height:27px;width:143px;font-weight: bold;background: url(images/bt_menu.png); outline:none;margin:0 0 0 12px;font-size:11px;padding:0 0 0 8px}
+#menu li               {float : left;}
+#menu li ul            {position: absolute; width: 135px; left: -999em; text-align:left;}
+#menu li ul li         {text-align:left;}
+#menu li ul li a       {text-align:center;outline:none;font-weight:normal;background-color:#2f2f2f;}
+#menu li ul li a:hover {background-color:#757575;outline:none}
+html>body #menu li ul li {}
+#menu li ul ul           {margin : -22px 0 0 111px; border-left : 1px solid #fff; }
+html>body #menu li ul ul {border-left : 1px solid transparent;}
+#menu a:hover            {background: url(images/bt_menuhover.png)}
+#menu li:hover ul ul, #menu li.sfhover ul ul  {left: -999em;text-align:left;padding:1px 2px;font-weight:normal;}
+#menu li:hover ul, #menu li li:hover ul, #menu li.sfhover ul, #menu li li.sfhover ul{left: auto;min-height: 0;}	   
+
+#menu li.lien a             {display:block;height:27px;color: #FFF;text-decoration : none;line-height:27px;width: 122px;font-weight: bold;background: url(images/bt_menuli.png) no-repeat; outline:none;padding:0}
+#menu li.lien a:hover       {background: url(images/bt_menulihover.png)}
+#menu li ul li.lien         {text-align:center;margin:0;padding:0} 
+
+/* class g�n�rique*/
+img, p, h1, h2, h3, h4, h5, h6, Span, object, table, td, input, tr, form{border:0;margin:0;padding:0} 
+a                  {color: #ffae01;text-decoration: none;margin:0;outline:none;font-weight:bold}	
+a:hover            {color: #FFF;}
+.clear             {clear:both;visibility:hidden}	 	 
+hr 			  {height:1px;background:#191919;border:0} 		
+
+/*Footer*/
+.copyright           {color:#FFF;font-size:11px;text-align:center}
+.copyright a         {color:#FFF;text-decoration: none;outline:none}
+.copyright a:hover   {color:#ffae01}
+
+#Form label {width:500px;}
+
+#Form fieldset { border:none; width:390px}
+
+#Form legend { font-size:18px; margin:0px; padding:10px 0px; color:#FFAE01; font-weight:bold;}
+#steps { list-style:none; width:100%; overflow:hidden; margin:0px; padding:0px; font-family:Lucida Sans, Arial, Helvetica, Sans-Serif; font-size:13px;}
+        #steps li {font-size:24px; float:left; padding:10px; color:#b0b1b3;}
+        #steps li span {font-size:11px; display:block;}
+        #steps li.current { color:#000;}
+
+        .prev, .next {background-color:#FFAE01; padding:5px 10px; color:#fff; text-decoration:none;}
+        .prev:hover, .next:hover { background-color:#000; text-decoration:none;}
+        .prev { float:left;}
+        .next { float:right;}
+
+        
+        
+
+	#Form label{display:block;}	
+	
+        
+.vanadium-invalid{
+    color:red;
+}    
