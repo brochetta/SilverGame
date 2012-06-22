@@ -1,5 +1,18 @@
 <?php
 session_start();
+function message($mess, $type)
+{
+    $_SESSION['message'] = $mess;
+    $_SESSION['type'] = $type;
+    echo '<META http-equiv="refresh" content="0">; ';
+}
+
+if(isset($_SESSION['message']) && isset($_SESSION['type']))
+{
+    $DIV_MESSAGE = "<div class='".$_SESSION['type']."'>".$_SESSION['message']."</div>";
+    $_SESSION['message'] = "";
+    $_SESSION['type'] = "";
+}
 
 $PARAM_hote='localhost'; // le chemin vers le serveur
 $PARAM_port='3306';
@@ -44,6 +57,9 @@ $header='';
     <META http-equiv="refresh" content="2; URL='.$lien.'"';
     }
 }*/
+
+
+
 
 if(!isset($_GET['p'])) {$_GET['p']="index";}
 if(!file_exists("content/".$_GET['p'].".php")) {$_GET['p']="404";}

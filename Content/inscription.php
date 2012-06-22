@@ -1,6 +1,6 @@
 <?php
 
-    if(isset($_POST))
+    if(isset($_POST['pseudo']))
     {
 
         $pseudo = htmlspecialchars($_POST['pseudo']);
@@ -37,13 +37,23 @@
         if($password != $confirm || !isset($password) || !isset($confirm))
             $erreur = $erreur."Le mot de passe et la confirmation ne sont pas pareils <br />";
 
-        if($erreur = "")
+        if($erreur == "")
         {
-            
+
+            $req = $BDD->prepare('INSERT INTO users(pseudo, email, password) VALUES(:pseudo, :email, :password)');
+            $req->execute(array(
+                    'pseudo' => $pseudo,
+                    'email' => $email,
+                    'password' => md5($password)
+                ));
+           message("Vous êtes maintenant inscrit !", "success");
         }
+        else
+            message($erreur, "error");
 
     }
-echo $erreur;
+
+
 ?>
 
 <form action="inscription" method="post" id="Form">

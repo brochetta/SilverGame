@@ -98,6 +98,9 @@ $(function() {
 	
 
           <div class="contenu2"><!-- Contenu blanc -->	 
+            <?php
+              echo $DIV_MESSAGE;
+            ?>
      <div class="left"><!-- Colonne Gauche -->
          
         <?php echo $content_for_layout; ?>

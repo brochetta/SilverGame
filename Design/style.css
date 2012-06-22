@@ -71,5 +71,10 @@ hr 			  {height:1px;background:#191919;border:0}
 .copyright a         {color:#FFF;text-decoration: none;outline:none}
 .copyright a:hover   {color:#ffae01}
 
+.error {
+color: #D8000C;
+background-color: #FFBABA;
+background-image: url('error.png');
+}
 
 
